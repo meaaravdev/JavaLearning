@@ -23,6 +23,7 @@ class myCar {
             start();
             System.out.println("Car is Driving");
             currentFuelOfCar--;
+            System.out.println(this.currentFuelOfCar);
         }
     }
 }
